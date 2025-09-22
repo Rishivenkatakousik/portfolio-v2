@@ -143,7 +143,7 @@ export const DATA = {
       techStack: ["React JS", "Firebase", "Node JS", "Express JS", "Shadcn"],
       websiteURL: "https://travel-one-lime.vercel.app/",
       githubURL: "https://github.com/Rishivenkatakousik/Ai-Trip-Planner",
-      imgURL: "Sma.png",
+      imgURL: "sma.png",
     },
     {
       title: " School Management Dashboard",
