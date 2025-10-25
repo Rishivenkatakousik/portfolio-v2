@@ -114,6 +114,26 @@ export const DATA = {
   education: [],
   projects: [
     {
+      title: "Nexus Chat",
+      desc: [
+        "Developed a real-time chat platform with Next.js supporting individual messaging.",
+        "Integrated Pusher Channels eliminating the need for complex manual websocket management, enabling instant message delivery and real-time updates.",
+        "Optimized Redis for caching and persistence, enabling faster retrieval of recent conversations.",
+        "Implemented robust input validation using Zod, ensuring strict type-safety and real-time error handling across chat forms.",
+      ],
+      techStack: [
+        "Next JS",
+        "Redis",
+        "Pusher",
+        "Zod",
+        "Tailwind CSS",
+        "Docker",
+      ],
+      websiteURL: "https://rishikousik.space/",
+      githubURL: "https://github.com/Rishivenkatakousik/chat-app",
+      imgURL: "chat.png",
+    },
+    {
       title: "Bazario",
       desc: [
         "Developed a responsive e-commerce platform with product catalog, shopping cart, and secure checkout.",
