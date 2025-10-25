@@ -154,18 +154,6 @@ export const DATA = {
       imgURL: "Bazario.png",
     },
     {
-      title: "Smart Voyage",
-      desc: [
-        "Developed an AI-powered travel planner that generates personalized itineraries based on user preferences such as budget, duration, and interests.",
-        "Integrated third-party APIs (Google Maps) to provide real-time travel data, accommodations, routes, and weather conditions.",
-        "Optimized itinerary generation algorithms for route planning, time management, and cost efficiency, ensuring a balance between travel convenience and budget constraints.",
-      ],
-      techStack: ["React JS", "Firebase", "Node JS", "Express JS", "Shadcn"],
-      websiteURL: "https://travel-one-lime.vercel.app/",
-      githubURL: "https://github.com/Rishivenkatakousik/Ai-Trip-Planner",
-      imgURL: "sma.png",
-    },
-    {
       title: " School Management Dashboard",
       desc: [
         "Built a centralized school management dashboard to streamline student, teacher, and administrative activities in one platform.",
