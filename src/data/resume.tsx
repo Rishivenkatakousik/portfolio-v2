@@ -102,7 +102,7 @@ export const DATA = {
       title: "Fullstack Web Developer",
       logoUrl: "/assets/icons/qorvia.jpg",
       start: "June 2025",
-      end: "Sept 2025",
+      end: "Aug 2025",
       description: [
         "Led development of  frontend of a Property Management SaaS with dedicated dashboards for tenants, landlords, and maintainers.",
         " Built a geolocation feature using Mapbox and Next.js, increasing accuracy of property location input by 95% and reducing manual address corrections.",
@@ -110,9 +110,45 @@ export const DATA = {
         " Enhanced product usability by adding multi-format data export options (PDF, Excel, clipboard copy), improved reporting efficiency by 40%.",
       ],
     },
+    {
+      company: "Rupeia",
+      href: "#",
+      badges: [],
+      location: "Remote",
+      title: "Backend Developer",
+      logoUrl: "/assets/icons/rupeia_logo.jpeg",
+      start: "Sept 2025",
+      end: "Oct 2025",
+      description: [
+        "Designed and implemented RESTful Blog APIs with Node.js, Express, and MongoDB, including authentication, validation, and robust error handling.",
+        " Built real-time payment processing using Razorpay WebSockets through an event-driven architecture to reduce backend load.",
+        " Refactored a Django-based web scraper for faster data extraction and added SEO-friendly slug generation for news articles.",
+        " Developed scalable file upload and storage APIs with AWS S3, improving media handling through optimized file processing and caching.",
+      ],
+    },
   ],
   education: [],
   projects: [
+    {
+      title: "Find my Doctor",
+      desc: [
+        "Built an AI-powered health analyzer using OpenAI for symptom interpretation and medical insights.",
+        "Designed async AI workflows with Inngest to handle analysis, embeddings, and doctor recommendations without blocking the main API.",
+        "Integrated Pinecone vector search to recommend the most relevant doctors using semantic embeddings.",
+        "Created a fast, modern UI with Next.js, Shadcn, and Zustand, featuring protected routes, dynamic case dashboards, and smooth user experience.",
+      ],
+      techStack: [
+        "React JS",
+        "Node Js",
+        "Tailwind CSS",
+        "Zustand",
+        "Mongodb",
+        "Inngest",
+      ],
+      websiteURL: "https://find-my-doctor-app.vercel.app/",
+      githubURL: "https://github.com/Rishivenkatakousik/find-my-doctor",
+      imgURL: "fmd.webp",
+    },
     {
       title: "Nexus Chat",
       desc: [
