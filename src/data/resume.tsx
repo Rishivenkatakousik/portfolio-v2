@@ -130,24 +130,30 @@ export const DATA = {
   education: [],
   projects: [
     {
-      title: "Find my Doctor",
+      title: "KrishiBazar",
       desc: [
-        "Built an AI-powered health analyzer using OpenAI for symptom interpretation and medical insights.",
-        "Designed async AI workflows with Inngest to handle analysis, embeddings, and doctor recommendations without blocking the main API.",
-        "Integrated Pinecone vector search to recommend the most relevant doctors using semantic embeddings.",
-        "Created a fast, modern UI with Next.js, Shadcn, and Zustand, featuring protected routes, dynamic case dashboards, and smooth user experience.",
+        "Built a responsive e-commerce platform for agricultural products using React, ensuring seamless usability across all devices.",
+        "Implemented complete shopping workflows including product listing, cart management, checkout, and order confirmation via RESTful APIs.",
+        "Integrated secure authentication, role-based authorization, and Razorpay payment gateway to support real-time transactions.",
+        "Designed reusable UI components and clean frontend architecture, reducing feature development time and improving maintainability.",
       ],
-      techStack: [
-        "React JS",
-        "Node Js",
-        "Tailwind CSS",
-        "Zustand",
-        "Mongodb",
-        "Inngest",
+      techStack: ["React JS", "Zustand", "Node JS", "MongoDB", "Tailwind CSS"],
+      websiteURL: "https://krishi-bazar-beta.vercel.app/",
+      githubURL: "https://github.com/Rishivenkatakousik/KrishiBazar",
+      imgURL: "krishibazar.webp",
+    },
+    {
+      title: "Agency.ai",
+      desc: [
+        "Developed a modern, responsive agency landing page using React with full cross-device compatibility.",
+        "Built modular and reusable React components for core sections such as hero, services, portfolio, team, and contact.",
+        "Optimized UI/UX and page layout to improve user engagement and overall performance during usability testing.",
+        "Deployed the application following modern frontend best practices, ensuring fast load times and clean component architecture.",
       ],
-      websiteURL: "https://find-my-doctor-app.vercel.app/",
-      githubURL: "https://github.com/Rishivenkatakousik/find-my-doctor",
-      imgURL: "fmd.webp",
+      techStack: ["React JS", "JavaScript", "Tailwind CSS"],
+      websiteURL: "https://agency-ai-two-navy.vercel.app/",
+      githubURL: "https://github.com/Rishivenkatakousik/agency-ai",
+      imgURL: "agency.webp",
     },
     {
       title: "Nexus Chat",
@@ -198,7 +204,7 @@ export const DATA = {
       ],
       techStack: ["Next.js", "React JS", "Tailwind CSS"],
       websiteURL:
-        "https://school-mangement-dashboard-mfngplzrl.vercel.app/admin",
+        "https://school-mangement-dashboard.vercel.app/admin",
       githubURL:
         "https://github.com/Rishivenkatakousik/school-mangement-dashboard",
       imgURL: "school.png",
