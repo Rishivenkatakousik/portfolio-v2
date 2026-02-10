@@ -3,7 +3,7 @@ import React from "react";
 
 const DownloadResume = () => {
   const downloadResume = () => {
-    const pdfUrl = "/assets/resume/Rishi_Resume.pdf";
+    const pdfUrl = "/assets/resume/Rishi.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "Rishi Resume.pdf";
