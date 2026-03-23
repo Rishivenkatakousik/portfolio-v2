@@ -95,6 +95,22 @@ export const DATA = {
   },
   work: [
     {
+      company: "ExaltRide",
+      href: "https://www.exaltride.com",
+      badges: [],
+      location: "Remote",
+      title: "Frontend Developer Intern",
+      logoUrl: "/assets/icons/exaltride.PNG",
+      start: "Jan 2026",
+      end: "Present",
+      description: [
+        "Developed and shipped the MVP UI from Figma designs into responsive, production-ready React components.",
+        "Integrated multiple RESTful APIs with secure authentication, dynamic rendering, and robust error handling.",
+        "Improved frontend performance by 35% using reusable components, lazy loading, and code-splitting strategies.",
+        "Collaborated with backend engineers and product teams to rapidly deliver features for successful MVP launch.",
+      ],
+    },
+    {
       company: "Qorvia technologies",
       href: "#",
       badges: [],
@@ -129,6 +145,20 @@ export const DATA = {
   ],
   education: [],
   projects: [
+    {
+      title: "Weavy.ai",
+      desc: [
+        "Built a node-based AI workflow builder with drag-and-drop pipeline creation using Next.js and React Flow.",
+        "Implemented 6+ custom nodes with dynamic connections for visually designing modular AI workflows.",
+        "Designed a DAG-based execution engine with validation and dependency-aware task scheduling.",
+        "Enabled parallel node execution using Trigger.dev, reducing workflow runtime by up to 50%.",
+        "Integrated FFmpeg-powered media processing for automated frame extraction and image transformations.",
+      ],
+      techStack: ["Next.js", "TypeScript", "React Flow", "PostgreSQL", "Trigger.dev", "FFmpeg"],
+      websiteURL: "https://weavy-ai-alpha.vercel.app/",
+      githubURL: "https://github.com/Rishivenkatakousik/Weavy.ai",
+      imgURL: "weavy.png",
+    },
     {
       title: "KrishiBazar",
       desc: [
