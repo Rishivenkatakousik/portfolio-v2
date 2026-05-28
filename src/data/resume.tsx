@@ -175,7 +175,7 @@ export const DATA = {
         "Redis",
         "Gemini AI",
       ],
-      websiteURL: "https://veda-ai-red.vercel.app/",
+      websiteURL: "https://veda-ai-red.vercel.app/assignments",
       githubURL: "https://github.com/Rishivenkatakousik/Veda.ai",
       imgURL: "vedaai.png",
     },
