@@ -180,6 +180,24 @@ export const DATA = {
       imgURL: "vedaai.png",
     },
     {
+      title: "FinTrack",
+      desc: [
+      "Built a personal finance dashboard using Next.js, TypeScript, and Zustand for transaction and budget management.",
+      "Implemented persistent state management with Zustand and localStorage, supporting role-based access and user preferences.",
+      "Developed interactive financial analytics and visualizations using Recharts for spending and budget insights."
+      ],
+      techStack: [
+      "Next.js",
+      "TypeScript",
+      "Zustand",
+      "Tailwind CSS",
+      "Recharts"
+      ],
+      websiteURL: "https://fintrack.rishikousik.space/",
+      githubURL: "https://github.com/Rishivenkatakousik/Fintrack",
+      imgURL: "fintrack.png"
+    },      
+    {
       title: "KrishiBazar",
       desc: [
         "Built a responsive e-commerce platform for agricultural products using React, ensuring seamless usability across all devices.",
