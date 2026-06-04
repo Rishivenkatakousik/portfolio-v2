@@ -159,26 +159,26 @@ export const DATA = {
       githubURL: "https://github.com/Rishivenkatakousik/Weavy.ai",
       imgURL: "weavy.png",
     },
-    {
-      title: "VedaAI",
-      desc: [
-        "Built an AI-powered assessment generation platform using Next.js, Node.js, MongoDB, Redis, and Gemini AI to automate question paper creation for educators.",
-        "Implemented asynchronous AI task processing with BullMQ and Redis workers, enabling scalable and efficient background job execution.",
-        "Integrated real-time progress tracking using Socket.io and Redis Pub/Sub, providing live status updates during paper generation workflows.",
-        "Designed structured AI output pipelines with schema validation and PDF generation, supporting difficulty-based questions, marks allocation, and answer keys.",
-        "Developed a scalable full-stack architecture using TypeScript, React Query, Zustand, and Zod validation, improving maintainability and frontend performance.",
-      ],
-      techStack: [
-        "Next.js",
-        "TypeScript",
-        "MongoDB",
-        "Redis",
-        "Gemini AI",
-      ],
-      websiteURL: "https://veda-ai-red.vercel.app/assignments",
-      githubURL: "https://github.com/Rishivenkatakousik/Veda.ai",
-      imgURL: "vedaai.png",
-    },
+    // {
+    //   title: "VedaAI",
+    //   desc: [
+    //     "Built an AI-powered assessment generation platform using Next.js, Node.js, MongoDB, Redis, and Gemini AI to automate question paper creation for educators.",
+    //     "Implemented asynchronous AI task processing with BullMQ and Redis workers, enabling scalable and efficient background job execution.",
+    //     "Integrated real-time progress tracking using Socket.io and Redis Pub/Sub, providing live status updates during paper generation workflows.",
+    //     "Designed structured AI output pipelines with schema validation and PDF generation, supporting difficulty-based questions, marks allocation, and answer keys.",
+    //     "Developed a scalable full-stack architecture using TypeScript, React Query, Zustand, and Zod validation, improving maintainability and frontend performance.",
+    //   ],
+    //   techStack: [
+    //     "Next.js",
+    //     "TypeScript",
+    //     "MongoDB",
+    //     "Redis",
+    //     "Gemini AI",
+    //   ],
+    //   websiteURL: "https://veda-ai-red.vercel.app/assignments",
+    //   githubURL: "https://github.com/Rishivenkatakousik/Veda.ai",
+    //   imgURL: "vedaai.png",
+    // },
     {
       title: "FinTrack",
       desc: [
