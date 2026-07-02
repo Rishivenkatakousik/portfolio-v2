@@ -3,7 +3,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Obulasetty Lakshmi Vasavi",
-  initials: "LV",
+  initials: "OV",
   url: "https://portfolio-rishikoushik.vercel.app",
   description:
     "Vasavi | Fullstack Web Developer, who loves Building Scalable Web Applications",
