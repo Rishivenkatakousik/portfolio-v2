@@ -2,11 +2,11 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Rishi venkata kousik",
-  initials: "RK",
+  name: "Obulasetty Lakshmi Vasavi",
+  initials: "LV",
   url: "https://portfolio-rishikoushik.vercel.app",
   description:
-    "Rishi | Fullstack Web Developer, who loves Building Scalable Web Applications",
+    "Vasavi | Fullstack Web Developer, who loves Building Scalable Web Applications",
   location: "Guntur, India",
   locationLink: "https://www.google.com/maps/place/Guntur",
   avatarUrl: "/assets/icons/ai.jpg",
@@ -70,79 +70,30 @@ export const DATA = {
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
-    email: "koushikrishi23@gmail.com",
-    tel: "9550711886",
+    email: "lakshmivasavi0@gmail.com",
+    tel: "7661907205",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/Rishivenkatakousik",
+        url: "https://github.com",
         icon: Icons.github,
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/rishi-venkata-kousik",
+        url: "https://www.linkedin.com/in/lakshmi-vasavi-obulasetty-4733a022b",
         icon: Icons.linkedin,
         navbar: true,
       },
       Email: {
         name: "Send Email",
-        url: "mailto:koushikrishi23@gmail",
+        url: "mailto:lakshmivasavi0@gmail.com",
         icon: Icons.email,
         navbar: true,
       },
     },
   },
-  work: [
-    {
-      company: "ExaltRide",
-      href: "https://www.exaltride.com",
-      badges: [],
-      location: "Remote",
-      title: "Frontend Developer Intern",
-      logoUrl: "/assets/icons/exaltride.PNG",
-      start: "Jan 2026",
-      end: "Present",
-      description: [
-        "Developed and shipped the MVP UI from Figma designs into responsive, production-ready React components.",
-        "Integrated multiple RESTful APIs with secure authentication, dynamic rendering, and robust error handling.",
-        "Improved frontend performance by 35% using reusable components, lazy loading, and code-splitting strategies.",
-        "Collaborated with backend engineers and product teams to rapidly deliver features for successful MVP launch.",
-      ],
-    },
-    {
-      company: "Rupeia",
-      href: "#",
-      badges: [],
-      location: "Remote",
-      title: "Backend Developer",
-      logoUrl: "/assets/icons/rupeia_logo.jpeg",
-      start: "Sept 2025",
-      end: "Oct 2025",
-      description: [
-        "Designed and implemented RESTful Blog APIs with Node.js, Express, and MongoDB, including authentication, validation, and robust error handling.",
-        " Built real-time payment processing using Razorpay WebSockets through an event-driven architecture to reduce backend load.",
-        " Refactored a Django-based web scraper for faster data extraction and added SEO-friendly slug generation for news articles.",
-        " Developed scalable file upload and storage APIs with AWS S3, improving media handling through optimized file processing and caching.",
-      ],
-    },
-    {
-      company: "Qorvia technologies",
-      href: "#",
-      badges: [],
-      location: "Remote",
-      title: "Fullstack Web Developer",
-      logoUrl: "/assets/icons/qorvia.jpg",
-      start: "June 2025",
-      end: "Aug 2025",
-      description: [
-        "Led development of  frontend of a Property Management SaaS with dedicated dashboards for tenants, landlords, and maintainers.",
-        " Built a geolocation feature using Mapbox and Next.js, increasing accuracy of property location input by 95% and reducing manual address corrections.",
-        " Implemented dynamic role-based interfaces, enhancing usability for tenants, landlords, and admins.",
-        " Enhanced product usability by adding multi-format data export options (PDF, Excel, clipboard copy), improved reporting efficiency by 40%.",
-      ],
-    },
-  ],
+  work: [],
   education: [],
   projects: [
     {

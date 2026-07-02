@@ -21,20 +21,20 @@ const DownloadResume = () => {
         Download Resume
       </p>
       <a
-        href="mailto:koushikrishi23@gmail.com"
+        href="mailto:lakshmivasavi0@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
         className="hover:text-blue-600 hover:underline font-semibold cursor-pointer"
       >
-        koushikrishi23@gmail.com
+        lakshmivasavi0@gmail.com
       </a>
       <a
-        href="tel:7773936878"
+        href="tel:7661907205"
         target="_blank"
         rel="noopener noreferrer"
         className="hover:text-blue-600 hover:underline font-semibold cursor-pointer"
       >
-        9550711886
+        7661907205
       </a>
     </>
   );

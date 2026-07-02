@@ -3,7 +3,6 @@ import { Icons } from "@/components/icons";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
-import { ResumeCard } from "@/components/resume-card";
 import { Skills } from "@/components/skills";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
@@ -51,36 +50,9 @@ export default function Portfolio() {
                 </BlurFade>
                 <BlurFade delay={BLUR_FADE_DELAY * 4}>
                     <p className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-                        Results-oriented <b>Fullstack Developer</b> with <b>2+ years</b> of experience building real-world, scalable web platforms from the ground up using <b>ReactJS, NodeJS, Express & MongoDB</b> and <b>NextJS</b>.  Skilled at designing high-performance backends, crafting dynamic frontends, and solving practical problems with clean, maintainable code. Focused on speed, scalability, and delivering solutions that create measurable business impact.
+                        Passionate <b>Fullstack Developer</b> building real-world, scalable web platforms from the ground up using <b>ReactJS, NodeJS, Express & MongoDB</b> and <b>NextJS</b>. Skilled at designing high-performance backends, crafting dynamic frontends, and solving practical problems with clean, maintainable code. Focused on speed, scalability, and delivering solutions that create measurable business impact.
                     </p>
                 </BlurFade>
-            </section>
-            <section id="work">
-                <div className="flex min-h-0 flex-col gap-y-3">
-                    <BlurFade delay={BLUR_FADE_DELAY * 5}>
-                        <h2 className="text-xl font-bold">Work Experience</h2>
-                    </BlurFade>
-                    <div className="space-y-5">
-                        {DATA.work.map((work, id) => (
-                            <BlurFade
-                                key={work.company}
-                                delay={BLUR_FADE_DELAY * 6 + id * 0.05}
-                            >
-                                <ResumeCard
-                                    key={work.company}
-                                    logoUrl={work.logoUrl}
-                                    altText={work.company}
-                                    title={work.company}
-                                    subtitle={work.title}
-                                    href={work.href}
-                                    badges={work.badges}
-                                    period={`${work.start} - ${work.end ?? "Present"}`}
-                                    description={work.description as unknown as string[]}
-                                />
-                            </BlurFade>
-                        ))}
-                    </div>
-                </div>
             </section>
             <section id="skills">
                 <div className="flex min-h-0 flex-col gap-y-3">
@@ -153,9 +125,9 @@ export default function Portfolio() {
                             </h2>
                             <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                                 Would you like to get in touch? Just shoot me an {" "}
-                                <a href="mailto:koushikrishi23@gmail.com" target="_blank"
+                                <a href="mailto:lakshmivasavi0@gmail.com" target="_blank"
                                     rel="noopener noreferrer" className="text-blue-700 font-semibold" >email here</a> {" "}
-                                or contact me at <span className="text-blue-700 font-semibold">9550711886</span> and I&apos;ll respond you, surely.
+                                or contact me at <span className="text-blue-700 font-semibold">7661907205</span> and I&apos;ll respond you, surely.
                             </p>
                         </div>
                     </BlurFade>

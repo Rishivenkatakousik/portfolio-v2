@@ -7,10 +7,10 @@ import {
 export function TerminalLoading() {
   return (
     <Terminal className="px-3 py-4 my-5">
-      <TypingAnimation>&gt; npm install rishi-portfolio</TypingAnimation>
+      <TypingAnimation>&gt; npm install vasavi-portfolio</TypingAnimation>
 
       <AnimatedSpan delay={2000} className="text-green-500">
-        <span>✔ Searching for {`rishi's Portfolio`}.</span>
+        <span>✔ Searching for {`vasavi's Portfolio`}.</span>
       </AnimatedSpan>
 
       <AnimatedSpan delay={2500} className="text-green-500">
