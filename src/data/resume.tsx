@@ -9,7 +9,7 @@ export const DATA = {
     "Vasavi | Fullstack Web Developer, who loves Building Scalable Web Applications",
   location: "Guntur, India",
   locationLink: "https://www.google.com/maps/place/Guntur",
-  avatarUrl: "/assets/icons/ai.jpg",
+  avatarUrl: "/assets/icons/vasavi.jpeg",
   skills: [
     {
       name: "HTML",
