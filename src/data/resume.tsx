@@ -159,6 +159,7 @@ export const DATA = {
       githubURL: "https://github.com/Rishivenkatakousik/Weavy.ai",
       imgURL: "weavy.png",
     },
+    /*
     {
       title: "VedaAI",
       desc: [
@@ -179,6 +180,7 @@ export const DATA = {
       githubURL: "https://github.com/Rishivenkatakousik/Veda.ai",
       imgURL: "vedaai.png",
     },
+    */
     {
       title: "FinTrack",
       desc: [
