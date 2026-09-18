@@ -1,3 +1,4 @@
+import Clarity from "@/components/clarity";
 import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -66,6 +67,7 @@ export default function RootLayout({
             {children}
             <Navbar />
           </TooltipProvider>
+          <Clarity />
         </ThemeProvider>
       </body>
     </html>
