@@ -239,7 +239,7 @@ export const DATA = {
         "Tailwind CSS",
         "Docker",
       ],
-      websiteURL: "https://rishikousik.space/",
+      websiteURL: "https://rishikousik.online/",
       githubURL: "https://github.com/Rishivenkatakousik/chat-app",
       imgURL: "chat.png",
     },
